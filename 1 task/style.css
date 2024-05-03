@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, serif;
+}
+
+body {
+    background: #dadada;
+}
+
+form {
+    background: #ffffff;
+    width: 800px;
+    min-height: 200px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-column {
+    flex: 1;
+    flex-direction: column;
+    padding-bottom: 48px
+}
+
+.info-block-content {
+    font-size: 22px;
+    margin: auto;
+    width: 300px;
+}
+
+.info-block-content img {
+    width: 28px;
+}
+
+.info-block-title {
+    display: flex;
+    align-items: center;
+}
+
+.info-block-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 16px;
+}
